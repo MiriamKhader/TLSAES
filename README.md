@@ -1,6 +1,8 @@
 # TLSAES
  ampy --port COM6 --baud 115200 put C:\Users\mpkhs\PycharmProjects\CNfDA\test.py main.py
 
+For using WIFI with MicroPython use the network library
+
 Installing micro python on ESP8266 NodeMCU:
 
 1.
