@@ -6,7 +6,6 @@ TCPBuffer = 1024
 
 TCPserver = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 TCPserver.bind((serverIP, serverPort))
-print(TCPserver.getsockname()[0])
 
 TCPserver.listen()
 

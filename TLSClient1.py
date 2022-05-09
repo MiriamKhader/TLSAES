@@ -2,7 +2,7 @@ import socket
 from Crypto.Cipher import AES
 
 #put servers IP
-serverIP = "192.168.0.24"
+serverIP = "127.0.0.1"
 serverPort = 8000
 
 cipherKey = b'bQeThWmZq4t7w!z%C*F-JaNdRfUjXn2r'
