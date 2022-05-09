@@ -1,7 +1,11 @@
 # TLSAES
- ampy --port COM6 --baud 115200 put C:\Users\mpkhs\PycharmProjects\CNfDA\test.py main.py
+
+ Optimise server to be able to run on NodeMCU: 
+ 
+ampy --port COM6 --baud 115200 put C:\Users\mpkhs\PycharmProjects\CNfDA\test.py main.py
 
 For using WIFI with MicroPython use the network library
+
 
 Installing micro python on ESP8266 NodeMCU:
 
@@ -31,3 +35,6 @@ Installing micro python on ESP8266 NodeMCU:
     esptool.py --port COM6 --baud 460800 write_flash --flash_size=detect 0 esp8266-20200911-v1.13.bin
 
     change esp8266-20200911-v1.13.bin according to what version of micropython was installed
+    
+
+Also install Putty or another SSH
